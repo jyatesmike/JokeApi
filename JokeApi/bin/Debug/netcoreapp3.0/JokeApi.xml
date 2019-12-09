@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JokeApi</name>
+    </assembly>
+    <members>
+        <member name="M:JokeApi.JokeController.GetJokes(System.String,System.String)">
+            <summary>
+            Gets list of jokes
+            </summary>
+        </member>
+        <member name="M:JokeApi.JokeController.GetRandomJoke">
+            <summary>
+            Gets a random joke
+            </summary>
+        </member>
+        <member name="M:JokeApi.JokeController.GetJokes(System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            Gets paginated list of jokes
+            </summary>
+        </member>
+        <member name="M:JokeApi.JokeController.GetJoke(System.Int32)">
+            <summary>
+            Gets a specific joke by id
+            </summary>
+        </member>
+        <member name="M:JokeApi.JokeController.PutJoke(System.Int32,JokeApi.Joke)">
+            <summary>
+            Updates a joke specified by id
+            </summary>
+        </member>
+        <member name="M:JokeApi.JokeController.PostJoke(JokeApi.Joke)">
+            <summary>
+            Adds a new joke to database
+            </summary>
+        </member>
+        <member name="M:JokeApi.JokeController.DeleteJoke(System.Int32)">
+            <summary>
+            Deletes a joke specified by id
+            </summary>
+        </member>
+    </members>
+</doc>
